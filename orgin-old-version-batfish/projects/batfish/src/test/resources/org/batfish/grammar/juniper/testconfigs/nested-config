@@ -1,4 +1,0 @@
-#
-system {
-    host-name nested-config;
-}

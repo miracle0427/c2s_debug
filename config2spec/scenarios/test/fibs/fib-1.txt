@@ -2,14 +2,11 @@
 ## VRF:b5ad834a02c6e99dc06a47e7b341c17a
 124.69.215.0/24;MEth0/0/0;ConnectedRoute
 0.0.0.0/0;MEth0/0/0;StaticRoute
-124.69.215.106/32;MEth0/0/0;ConnectedRoute
 ## VRF:default
 124.69.7.230/32;LoopBack0;ConnectedRoute
-125.20.198.190/32;Vlanif600;ConnectedRoute
 125.20.198.128/26;Vlanif600;ConnectedRoute
 125.20.192.0/26;Vlanif308;BgpRoute
 124.69.7.160/32;Vlanif308;BgpRoute
-124.69.22.53/32;Vlanif308;ConnectedRoute
 23.146.0.0/15;Vlanif308;BgpRoute
 124.69.7.217/32;Vlanif308;BgpRoute
 124.69.7.207/32;Vlanif308;BgpRoute
@@ -18,117 +15,75 @@
 # Router:124-69-215-145
 ## VRF:b5ad834a02c6e99dc06a47e7b341c17a
 124.69.215.0/24;MEth0/0/0;ConnectedRoute
-124.69.215.145/32;MEth0/0/0;ConnectedRoute
 0.0.0.0/0;MEth0/0/0;StaticRoute
 ## VRF:default
 124.69.7.160/32;LoopBack0;ConnectedRoute
 125.20.192.0/26;Vlanif600;ConnectedRoute
-125.20.192.30/32;Vlanif600;ConnectedRoute
 124.69.22.116/31;Vlanif317;ConnectedRoute
 23.146.0.0/15;Vlanif317;BgpRoute
 124.69.7.217/32;Vlanif317;BgpRoute
 125.20.198.128/26;Vlanif317;BgpRoute
 124.69.7.207/32;Vlanif317;BgpRoute
 124.69.7.230/32;Vlanif317;BgpRoute
-124.69.22.116/32;Vlanif317;ConnectedRoute
 125.20.199.0/26;Vlanif317;BgpRoute
 # Router:124-69-215-71
 ## VRF:b5ad834a02c6e99dc06a47e7b341c17a
 124.69.215.0/24;MEth0/0/0/0;ConnectedRoute
-124.69.215.71/32;MEth0/0/0/0;ConnectedRoute
 0.0.0.0/0;MEth0/0/0/0;StaticRoute
 ## VRF:default
-124.69.22.89/32;Vlanif312;ConnectedRoute
 124.69.22.88/31;Vlanif312;ConnectedRoute
-124.69.22.82/32;Vlanif313;ConnectedRoute
 124.69.22.82/31;Vlanif313;ConnectedRoute
 124.69.22.102/31;Vlanif314;ConnectedRoute
-124.69.22.103/32;Vlanif314;ConnectedRoute
 124.69.22.108/31;Vlanif315;ConnectedRoute
-124.69.22.108/32;Vlanif315;ConnectedRoute
-124.69.22.167/32;Vlanif330;ConnectedRoute
 124.69.22.166/31;Vlanif330;ConnectedRoute
-124.69.22.180/32;Vlanif331;ConnectedRoute
 124.69.22.180/31;Vlanif331;ConnectedRoute
-124.69.22.176/32;Vlanif332;ConnectedRoute
 124.69.22.176/31;Vlanif332;ConnectedRoute
-124.69.22.60/32;Vlanif310;ConnectedRoute
 124.69.22.60/31;Vlanif310;ConnectedRoute
-124.69.22.59/32;Vlanif311;ConnectedRoute
 124.69.22.58/31;Vlanif311;ConnectedRoute
 124.69.22.112/31;Vlanif316;ConnectedRoute
-124.69.22.112/32;Vlanif316;ConnectedRoute
 124.69.22.116/31;Vlanif317;ConnectedRoute
 125.20.192.0/26;Vlanif317;BgpRoute
 124.69.7.160/32;Vlanif317;BgpRoute
-124.69.22.117/32;Vlanif317;ConnectedRoute
-124.69.22.25/32;Eth-Trunk101;ConnectedRoute
 124.69.22.24/31;Eth-Trunk101;ConnectedRoute
 124.69.22.126/31;Vlanif318;ConnectedRoute
-124.69.22.127/32;Vlanif318;ConnectedRoute
-124.69.22.28/32;Eth-Trunk100;ConnectedRoute
 124.69.22.28/31;Eth-Trunk100;ConnectedRoute
 124.69.22.220/31;Vlanif319;ConnectedRoute
-124.69.22.221/32;Vlanif319;ConnectedRoute
 124.69.22.0/31;Vlanif301;ConnectedRoute
-124.69.22.0/32;Vlanif301;ConnectedRoute
 124.69.22.204/31;Vlanif323;ConnectedRoute
-124.69.22.204/32;Vlanif323;ConnectedRoute
 124.69.7.217/32;LoopBack0;ConnectedRoute
-124.69.22.3/32;Vlanif302;ConnectedRoute
 124.69.22.2/31;Vlanif302;ConnectedRoute
-124.69.22.7/32;Vlanif303;ConnectedRoute
 124.69.22.6/31;Vlanif303;ConnectedRoute
 124.69.22.230/31;Vlanif325;ConnectedRoute
-124.69.22.231/32;Vlanif325;ConnectedRoute
-124.69.22.4/32;Vlanif304;ConnectedRoute
 124.69.22.4/31;Vlanif304;ConnectedRoute
-124.69.22.232/32;Vlanif326;ConnectedRoute
 124.69.22.232/31;Vlanif326;ConnectedRoute
-124.69.22.208/32;Vlanif320;ConnectedRoute
 124.69.22.208/31;Vlanif320;ConnectedRoute
 124.69.22.214/31;Vlanif321;ConnectedRoute
-124.69.22.215/32;Vlanif321;ConnectedRoute
-124.69.22.199/32;Vlanif322;ConnectedRoute
 124.69.22.198/31;Vlanif322;ConnectedRoute
 124.69.7.207/32;Vlanif300;BgpRoute
-124.69.22.16/32;Vlanif300;ConnectedRoute
 124.69.22.16/31;Vlanif300;ConnectedRoute
 125.20.199.0/26;Vlanif300;BgpRoute
 124.69.22.62/31;Vlanif309;ConnectedRoute
-124.69.22.63/32;Vlanif309;ConnectedRoute
-124.69.22.242/32;Vlanif327;ConnectedRoute
 124.69.22.242/31;Vlanif327;ConnectedRoute
 124.69.22.14/31;Vlanif305;ConnectedRoute
-124.69.22.15/32;Vlanif305;ConnectedRoute
-23.146.32.254/32;Vlanif602;ConnectedRoute
 23.146.0.0/15;Vlanif602;ConnectedRoute
 124.69.22.170/31;Vlanif328;ConnectedRoute
-124.69.22.170/32;Vlanif328;ConnectedRoute
-124.69.22.80/32;Vlanif306;ConnectedRoute
 124.69.22.80/31;Vlanif306;ConnectedRoute
-124.69.22.251/32;Vlanif329;ConnectedRoute
 124.69.22.250/31;Vlanif329;ConnectedRoute
 124.69.22.54/31;Vlanif307;ConnectedRoute
-124.69.22.55/32;Vlanif307;ConnectedRoute
 125.20.198.128/26;Vlanif308;BgpRoute
 124.69.22.52/31;Vlanif308;ConnectedRoute
 124.69.7.230/32;Vlanif308;BgpRoute
-124.69.22.52/32;Vlanif308;ConnectedRoute
 # Router:124-69-215-8
 ## VRF:b5ad834a02c6e99dc06a47e7b341c17a
-124.69.215.8/32;MEth0/0/0;ConnectedRoute
 124.69.215.0/24;MEth0/0/0;ConnectedRoute
 0.0.0.0/0;MEth0/0/0;StaticRoute
 ## VRF:default
 124.69.7.207/32;LoopBack0;ConnectedRoute
 125.20.199.0/26;Vlanif600;ConnectedRoute
-125.20.199.33/32;Vlanif600;ConnectedRoute
 23.146.0.0/15;Vlanif300;BgpRoute
 124.69.7.217/32;Vlanif300;BgpRoute
 124.69.7.160/32;Vlanif300;BgpRoute
 125.20.192.0/26;Vlanif300;BgpRoute
 125.20.198.128/26;Vlanif300;BgpRoute
-124.69.22.17/32;Vlanif300;ConnectedRoute
 124.69.22.16/31;Vlanif300;ConnectedRoute
 124.69.7.230/32;Vlanif300;BgpRoute

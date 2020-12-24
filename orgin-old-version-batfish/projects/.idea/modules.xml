@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/allinone/allinone.iml" filepath="$PROJECT_DIR$/allinone/allinone.iml" />
-      <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/batfish/batfish.iml" filepath="$PROJECT_DIR$/batfish/batfish.iml" />
       <module fileurl="file://$PROJECT_DIR$/batfish-client/batfish-client.iml" filepath="$PROJECT_DIR$/batfish-client/batfish-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/batfish-common-protocol/batfish-common-protocol.iml" filepath="$PROJECT_DIR$/batfish-common-protocol/batfish-common-protocol.iml" />

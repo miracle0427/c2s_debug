@@ -383,9 +383,6 @@
               <groupId>org.antlr</groupId>
               <artifactId>antlr4</artifactId>
               <version>${antlr4.version}</version>
-<!--              <scope>system</scope>-->
-<!--              &lt;!&ndash;jar包地址&ndash;&gt;-->
-<!--              <systemPath>${basedir}/lib/antlr4/antlr4-4.7.1-batfish-internal.jar</systemPath>-->
             </dependency>
           </dependencies>
         </plugin>
@@ -771,9 +768,6 @@
         <groupId>com.microsoft.z3</groupId>
         <artifactId>z3</artifactId>
         <version>${z3.version}</version>
-<!--        <scope>system</scope>-->
-<!--        &lt;!&ndash;jar包地址&ndash;&gt;-->
-<!--        <systemPath>${basedir}/lib/z3/com.microsoft.z3-2018-01-12-450f3c9b459d128135abb5bbd4fa0508fe26bfae-sources.jar</systemPath>-->
       </dependency>
 
       <dependency>
@@ -906,9 +900,6 @@
         <groupId>net.sf.javabdd</groupId>
         <artifactId>javabdd</artifactId>
         <version>${javabdd.version}</version>
-<!--        <scope>system</scope>-->
-<!--        &lt;!&ndash;jar包地址&ndash;&gt;-->
-<!--        <systemPath>${basedir}/lib/bdd/net.sf.javabdd-2018-07-26-36d0ed6-batfish-internal.jar</systemPath>-->
       </dependency>
 
       <dependency>

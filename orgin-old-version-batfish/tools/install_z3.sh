@@ -123,7 +123,7 @@ install_z3_osx() {
 }
 
 install_z3_ubuntu() {
-  UBUNTU_VERSION=16.04
+  UBUNTU_VERSION="$(lsb_release -rs)"
   [ -n "${UBUNTU_VERSION}" ]
   INSTALL_PREFIX="/usr"
   Z3_CACHE_DIR="${HOME}/.batfish_z3_cache"
